@@ -18,7 +18,7 @@ def drawdigit(digit):
 	turtle.penup()
 	turtle.fd(80)
 	turtle.left(180)
-def drawclean():   '''用白笔清除，其实可以用turtle.clear()代替'''
+def drawclean():   
 	turtle.pencolor("white")
 	for i in range(4):
 		drawline(True)
