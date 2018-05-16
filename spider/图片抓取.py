@@ -5,4 +5,4 @@ r=requests.get(url)
 print(r.status_code)
 with open(path,'wb') as f:
 	f.write(r.content)
-f.close
+f.close()
