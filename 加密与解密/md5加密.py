@@ -3,7 +3,7 @@
  
 import hashlib
 
-i="nihao"
+i="-2"
 # 创建md5对象
 hl = hashlib.md5()
  
